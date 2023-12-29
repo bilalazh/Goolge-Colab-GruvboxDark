@@ -98,7 +98,11 @@
 /*     predefined color that are theme specific      */
         --colab-toolbar-button-color:#ebdbb2 ;
         --colab-icon-color:#d5c4a1 ;
+        
+/* active cell side bar          */
         --colab-highlighted-surface-color:#79740e ;
+        --colab-title-color: #f57d26;
+            --colab-diff-editor-background: black ; 
 }
     
     
@@ -205,14 +209,14 @@ color:#98971a !important;
     position: relative;
 }
     
-    
+/* tool bar buttons       */
 colab-toolbar-button {
-    background-color:#1d2021 !important;
+    background-color:#3c3836 !important;
     --iron-icon-margin: 0 4px 0 0;
 }
-
+/* Top and side bar button colors  */
     .layout.horizontal {
-        background-color:#1d2021 !important;
+        background-color:#282828 !important;
     display: -webkit-box;
     display: -webkit-flex;
     display: flex;
@@ -228,7 +232,7 @@ colab-toolbar-button {
 /* side bar       */
     
     
-    
+/*  code adnd text icon buttons    */
     paper-button {
     color: var(--colab-toolbar-button-color);
     font-size: 14px;
@@ -242,9 +246,156 @@ colab-toolbar-button {
     flex-shrink: 0;
     margin: var(--iron-icon-margin);
 }
+/*Button hover color      */
     paper-button:hover {
     background-color: var(--colab-highlighted-surface-color)!important;;
     border-radius: 6px;
     
     }
+    
+    
+    
+    div#context-menu.goog-menu.goog-menu-vertical{
+       color:var(--colab-title-color) !important;;
+        background-color:#ebdbb2 !important;
+    }
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+/* cell outer border     */
+    .cell>.add-cell {
+    height: 12px;
+        background-color:#16181a !important;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 }
