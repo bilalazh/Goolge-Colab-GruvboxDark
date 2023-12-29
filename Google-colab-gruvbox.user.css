@@ -1,0 +1,250 @@
+/* ==UserStyle==
+@name           colab.research.google.com - Dec 2023
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("colab.research.google.com") {
+    
+    :root {
+    --bg0-dh: #1d2021;
+    --bg1-dark: #3c3836;
+    --bg-dark: #282828;
+    --bg2-dark: #504945;
+    --bg3-dark: #665c54;
+    --bg4-dark: #7c6f64;
+    --bg5-dark: #928374;
+    --bg_visual: #503946;
+    --bg_red: #cc241d;
+    --bg_green: #98971a;
+    --bg_blue: #458588;
+    --bg_yellow: #d79921;
+    --shadow: #16181a;
+    --shadow-var1: #17191b;
+    --shadow-cur: #1a1b1d;
+    --fg-dark: #ebdbb2;
+    --grey0-dark: #7f897d;
+    --grey1-dark: #859289;
+    --grey2-dark: #9aa79d;
+    --faded-red: #fb4934;
+    --faded-orange: #fe8019;
+    --faded-yellow: #fabd2f;
+    --faded-green: #b8bb26;
+    --faded-aqua: #8ec07c;
+    --faded-blue: #83a598;
+    --faded-purple: #d3869b;
+    --dim-red: #cc241d;
+    --dim-orange: #d65d0e;
+    --dim-yellow: #d79921;
+    --dim-green: #98971a;
+    --dim-aqua: #689d6a;
+    --dim-blue: #458588;
+    --dim-purple: #b16286;
+    --bg0-light: #f0edd8;
+    --bg1-light: #f6f1dd;
+    --bg-light: #fdf6e3;
+    --bg2-light: #f3efda;
+    --bg3-light: #edead5;
+    --bg4-light: #e4e1cd;
+    --bg5-light: #dfdbc8;
+    --grey0-light: #a4ad9e;
+    --grey1-light: #939f91;
+    --grey2-light: #879686;
+    --shadow-light: #3c474d20;
+    --text-offwhite: #fbf1c7;
+    --text-offyellowish: #f2e5bc;
+    --text-white: #f9f5d7;
+    --text-offwhite-faded: #ebdbb2;
+    --text--faded: #d5c4a1;
+    --text--veryfade: #928374;
+    --bg_visual_light: #eaedc8;
+    --bg_red_light: #fbe3da;
+    --bg_green_light: #f0f1d2;
+    --bg_blue_light: #e9f0e9;
+    --bg_yellow_light: #faedcd;
+    --fg-light: #5c6a72;
+    --light-red: #f85552;
+    --light-orange: #f57d26;
+    --light-yellow: #bf983d;
+    --light-green: #899c40;
+    --light-aqua: #569d79;
+    --light-blue: #5a93a2;
+    --light-purple: #b87b9d;
+    --light-dim-red: #f1706f;
+    --light-dim-orange: #f39459;
+    --light-dim-yellow: #e4b649;
+    --light-dim-green: #a4bb4a;
+    --light-dim-aqua: #6ec398;
+    --light-dim-blue: #6cb3c6;
+    --light-dim-purple: #e092be;
+    --dark-red: #9d0006;
+    --dark-green: #79740e;
+    --dark-yellow: #b57614;
+    --dark-blue: #076678;
+    --dark-purple: #8f3f71;
+    --dark-aqua: #427b58;
+    --dark-orange: #af3a03;
+    --interface-light0-hard: #f9f5d7;
+    --interface-light0: #fbf1c7;
+    --interface-light0-soft: #f2e5bc;
+    --interface-light1: #ebdbb2;
+    --interface-light2: #d5c4a1;
+    --interface-light3: #bdae93;
+    --interface-light4: #a89988;
+        
+        
+/*     predefined color that are theme specific      */
+        --colab-toolbar-button-color:#ebdbb2 ;
+        --colab-icon-color:#d5c4a1 ;
+        --colab-highlighted-surface-color:#79740e ;
+}
+    
+    
+                /*   Header styles        */
+    .doc-name {
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid transparent;
+    color: #98971a !important;
+    font: normal 18px var(--colab-google-sans-font-family);
+    max-width: 100%;
+    min-width: 65px;
+    padding: 0 4px 0 3px;
+    text-overflow: ellipsis;
+    white-space: pre;
+}
+    
+    
+    #document-info {
+        background-color:#282828 !important; 
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    height: 25px;
+    margin-bottom: 2px;
+    margin-left: 4px;
+}
+    
+/*Commments and share button bg       */
+    #header-right, #header-right>paper-button {
+        background-color:#282828 !important;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+}
+/*icons comments and share       */
+    #header-right paper-button md-icon {
+        color:#fabd2f !important;
+    margin: 0 8px 0 0;
+}
+    
+/* main div header background      */
+    body:not(.mobile) #header-doc-toolbar {
+        background-color:#282828 !important;
+    overflow: hidden;
+    padding-left: 4px;
+    padding-top: 8px;
+}
+    
+/*      icons in the header */
+    md-icon{
+        color:#fabd2f !important;
+    }
+    
+/* Comment and share text      */
+    #header paper-button[command] {
+color:#98971a !important;
+    font-size: var(--colab-chrome-font-size);
+    text-transform: unset;
+}
+    
+/*  File , edit , view inset and more text    */
+    
+    #top-menubar .goog-menu-button-caption, #top-menuvar .goog-menuitem-content {
+    color: #d5c4a1 !important;
+}
+    
+        
+    .save-message {
+ color:#b8bb26 !important;
+    font-family: var(--colab-chrome-font-family);
+    font-size: var(--colab-chrome-font-size);
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/*  Colab icons removed -> optional    */
+    .colab-large-icon {
+    
+    opacity:1 ; 
+}
+/*   Colab header iconn bg    */
+    #header-logo {
+        background-color:#282828 !important;
+    height: 64px;
+    padding-left: 10px;
+    text-align: center;
+    width: 50px;
+}
+    
+    
+        
+            /* Secondary header      */
+                /*   code adn text    */
+    
+    
+    #top-toolbar {
+   
+    background-color: #282828;
+    border-bottom: 1px solid var(--colab-border-color);
+    padding-left: 8px;
+    position: relative;
+}
+    
+    
+colab-toolbar-button {
+    background-color:#1d2021 !important;
+    --iron-icon-margin: 0 4px 0 0;
+}
+
+    .layout.horizontal {
+        background-color:#1d2021 !important;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+}
+    
+    
+    
+/*  Side  bar    */
+/* side bar       */
+    
+    
+    
+    paper-button {
+    color: var(--colab-toolbar-button-color);
+    font-size: 14px;
+   
+}
+    
+    iron-icon {
+    --iron-icon-height: 15px;
+    --iron-icon-width: 15px;
+    color: var(--colab-icon-color);
+    flex-shrink: 0;
+    margin: var(--iron-icon-margin);
+}
+    paper-button:hover {
+    background-color: var(--colab-highlighted-surface-color)!important;;
+    border-radius: 6px;
+    
+    }
+}
