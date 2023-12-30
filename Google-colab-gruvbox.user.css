@@ -123,7 +123,72 @@
         
       
 }
-    
+    html[theme=dark] {
+    --colab-anchor-color: var(
+  --paper-blue-300);
+    --colab-callout-color: var(
+  --google-blue-600);
+    --code-cell-background: #282828;
+    --colab-border-color: var(
+  --paper-grey-700);
+    --colab-bold-border-color: #d79921;
+    --colab-divider-color: var(
+  --paper-grey-700);
+    --colab-debugger-line-color: var(
+  --paper-red-900);
+    --colab-editor-focus-color: #282828;
+    --colab-highlighted-surface-color: #525252;
+    --colab-icon-color: var(
+  --dim-yellow);
+    --colab-input-placeholder-color: var(
+  --colab-tertiary-text-color);
+    --colab-primary-surface-color: #17191b;
+    --colab-primary-text-color: #d5d5d5;
+    --colab-secondary-text-color: #f7f7f7;
+    --colab-tertiary-text-color: #b3b3b3;
+    --colab-secondary-surface-color: #454545;
+    --colab-scrollbar-color: rgba(255, 255, 255, 0.2);
+    --colab-gutter-icon-color: #858585;
+    --colab-active-execution-icon-color: var(
+  --colab-icon-color);
+    --colab-error-icon-color: var(
+  --paper-red-400);
+    --colab-title-color: #fff;
+    --colab-toolbar-button-color: var(
+  --paper-grey-200);
+    --colab-form-field-underline-color: var(
+  --paper-grey-400);
+    --colab-diff-editor-background: #000;
+    --colab-local-diff-background: #292935;
+    --colab-remote-diff-background: #2e2f08;
+    --colab-merged-diff-background: #09380b;
+    --colab-status-okay: #00c752;
+    --ansi-black: rgb(127, 127, 127);
+    --ansi-red: rgb(255, 122, 136);
+    --ansi-green: rgb(87, 187, 138);
+    --ansi-yellow: rgb(255, 255, 102);
+    --ansi-blue: #98971a;
+    --ansi-magenta: rgb(205, 0, 205);
+    --ansi-cyan: #b8bb26;
+    --ansi-gray: rgb(229, 229, 229);
+    --ansi-bright-green: rgb(0, 255, 0);
+    --gcp-success-icon-color: #458588;
+    --colab-comment-anchor-color: var(
+  --paper-blue-300);
+    --colab-filled-button-ripple-color: #fff;
+    --colab-comment-highlight-color: #1a237e;
+    --error-color: var(
+  --paper-deep-orange-a100);
+    --primary-color: var(
+  --google-blue-300);
+    --hairline-button-primary: var(
+  --primary-color);
+    --hairline-button-secondary: var(
+  --google-blue-200);
+    --hairline-button-overlay-hovered: #42a5f50a;
+    --hairline-button-disabled-label: #ffffff4d;
+    --hairline-button-disabled-container: #ffffff1f;
+}
     
                 /*   Header styles        */
     .doc-name {
@@ -279,8 +344,34 @@ colab-toolbar-button {
         background-color:#282828 !important;
     }
 
+    .notebook-horizontal {
+    background: #1d2021 !important;;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: row;
+    flex-flow: row;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+    overflow: hidden;
+    position: relative;
+}
     
-    
+    .notebook-scrolling-horizontal {
+        
+        background-color:#1d2021 !important;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: row;
+    flex-flow: row;
+    padding-bottom: 400px;
+}
     
     
 /* AI button and stuff      */
