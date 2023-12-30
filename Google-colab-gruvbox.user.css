@@ -106,6 +106,16 @@
         
 /*  front page cell icons   -> changges background color as well      */
         --colab-primary-surface-color:#1d2021 ;
+        
+        
+        
+
+        
+/*   All menu and sub menhus colors       */
+        --colab-primary-text-color:#ebdbb2 ; 
+        
+        
+        
 }
     
     
@@ -260,7 +270,7 @@ colab-toolbar-button {
 /*  Context menny in the top icons     */
     div#context-menu.goog-menu.goog-menu-vertical{
        color:var(--colab-title-color) !important;;
-        background-color:#ebdbb2 !important;
+        background-color:#282828 !important;
     }
 
     
@@ -398,19 +408,51 @@ paper-icon-button {
     
     
     
+        
+        /* Main cell colors     */
     
+    body {
+background-color: var(--colab-primary-surface-color)!important;
+    color: var(--colab-primary-text-color)!important;
+    font-family: var(--colab-chrome-font-family);
+    font-size: var(--colab-chrome-font-size);
+    line-height: 1.24;
+    font-weight: 400;
+    padding: 7px 0 10px 5px;
+    margin: 0;
+}
     
+/*Bg color of the cells      */
+    .monaco-editor .view-lines {
+     
+        background-color:#ebdbb2 !important;
+    white-space: nowrap;
+}
     
+/* Color of the active cell line      */
+    .monaco-editor .margin-view-overlays .current-line, .monaco-editor .view-overlays .current-line {
+        
+        background-color:#79740e !important;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    box-sizing: border-box;
+}
     
+/*  Line numbers background    */
+    div.margin-view-overlays{
+      
+        background-color:#1d2021 !important;
+    }
+
+/*Side bar line numebers      */
     
-    
-    
-    
-    
-    
-    
-    
-    
+      div.line-numbers{
+      
+    color:#d5c4a1 !important;
+    }
+
     
     
     
