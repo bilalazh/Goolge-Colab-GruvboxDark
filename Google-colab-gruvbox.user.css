@@ -103,6 +103,9 @@
         --colab-highlighted-surface-color:#79740e ;
         --colab-title-color: #f57d26;
             --colab-diff-editor-background: black ; 
+        
+/*  front page cell icons   -> changges background color as well      */
+        --colab-primary-surface-color:#1d2021 ;
 }
     
     
@@ -142,7 +145,7 @@
 }
 /*icons comments and share       */
     #header-right paper-button md-icon {
-        color:#fabd2f !important;
+        color:#427b58 !important;
     margin: 0 8px 0 0;
 }
     
@@ -156,7 +159,7 @@
     
 /*      icons in the header */
     md-icon{
-        color:#fabd2f !important;
+        color:#b57614 !important;
     }
     
 /* Comment and share text      */
@@ -254,7 +257,7 @@ colab-toolbar-button {
     }
     
     
-    
+/*  Context menny in the top icons     */
     div#context-menu.goog-menu.goog-menu-vertical{
        color:var(--colab-title-color) !important;;
         background-color:#ebdbb2 !important;
@@ -361,7 +364,7 @@ colab-toolbar-button {
     
     
     
-    
+/*realated to celll styles      */
     
 /* cell outer border     */
     .cell>.add-cell {
@@ -369,12 +372,29 @@ colab-toolbar-button {
         background-color:#16181a !important;
 }
     
+/*      */icon and related stuff 
+paper-icon-button {
+    color: var(--colab-icon-color);
+
+    border: 1px solid transparent;
+    border-radius: 3px;
+    height: 20px;
+    margin: 1px;
+    padding: 0px;
+    width: 25px;
+}
     
-    
-    
-    
-    
-    
+/*  whole background and the backgournd preoperty in every cell    */
+    :host {
+    background: var(--colab-primary-surface-color);
+    border-radius: 3px;
+    box-shadow: var(--box-shadow-elevation-2dp);
+    display: flex;
+    position: absolute;
+    right: 8px;
+    top: -14px;
+    z-index: 21;
+}
     
     
     
