@@ -102,7 +102,7 @@
 /* active cell side bar          */
         --colab-highlighted-surface-color:#79740e ;
         --colab-title-color: #f57d26;
-            --colab-diff-editor-background: black ; 
+            --colab-diff-editor-background: #98971a ; 
         
 /*  front page cell icons   -> changges background color as well      */
         --colab-primary-surface-color:#1d2021 ;
@@ -114,7 +114,7 @@
 /*   All menu and sub menhus colors       */
         --colab-primary-text-color:#ebdbb2 ; 
         
-        
+       
         
 }
     
@@ -453,7 +453,11 @@ background-color: var(--colab-primary-surface-color)!important;
     color:#d5c4a1 !important;
     }
 
-    
+/*  Output area     */
+    div.output-content{
+
+        background-color:#1d2021 !important;
+    }
     
     
     
