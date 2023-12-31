@@ -10,7 +10,7 @@
 
 ## Description <a name="description"></a>
 
-This user style applies the  gruvbox theme to  [Google Colab Website](https://bard.google.com/) 
+This user style applies the  gruvbox theme to  [Google Colab Website](https://colab.research.google.com/) 
 
 
 
