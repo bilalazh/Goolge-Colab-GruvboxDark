@@ -6,7 +6,6 @@
  2. [Prerequisites](#Pre)
 3. [Installation Instructions](#installation-instructions)
 4. [Screenshot](#screenshot)
-5.  [How to edit colors](#Howto-edit)
 
 ## Description <a name="description"></a>
 
@@ -21,12 +20,11 @@ This user style applies the  gruvbox theme to  [Google Colab Website](https://co
 
 
 ## Prerequisites <a name="Pre"></a>
-#### Make sure dark mode is enabled
-> _Note:_ Make sure you enable dark  theme before using this style other wise some colors might appear broken
-> go to `Settings` on bard website --> Click on `Use Dark Theme icon`
+Theme works with either Light or Dark Theme enabled (Some areas may differ between light and dark modes)
 
 ----------------------------------------------------------------------
 ## _Important:_
+
 >  Make sure you have Stylus Extension installed. If you don't have it installed already, [CLICK HERE](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) to install it from Chrome Webstore. You can pin it to see the active styles on any website at any time.
 
 
@@ -44,10 +42,10 @@ Click on the `install style` to confirm your installation.
 Enjoy using the style!
 ------------------------------
 
-Two right next to the icon shows that there are two styles active for the specific website right now.
+Two right next to the icon shows that there are two styles active for the webstite you are using right now
 ![image](https://github.com/bilalazh/Google-Chivo-Font-On-every-website-/assets/139261053/a0c78478-203e-48fe-a1e2-98ff0aa8fff0)
 
->When  you go to google bard website you should see a 1 next to it 
+>When  you go to google Colab website you should see a 1 next to the extension icon 
 ## Screenshot <a name="screenshot"></a>
 
 
