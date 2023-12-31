@@ -70,3 +70,4 @@ Two right next to the icon shows that there are two styles active for the websti
 
 - Check the Syntax highlighting for R and other languages
 - Check other places where the theme may not be applied 
+- chamge colors is need be 
