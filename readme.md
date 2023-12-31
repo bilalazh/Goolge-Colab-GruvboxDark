@@ -48,18 +48,22 @@ Two right next to the icon shows that there are two styles active for the websti
 >When  you go to google Colab website you should see a 1 next to the extension icon 
 ## Screenshot <a name="screenshot"></a>
 
+#### Front page single cell view 
+
+
+![Front big screenshots](https://github.com/bilalazh/Goolge-Colab-GruvboxDark/assets/139261053/34d66f13-ca19-44f2-a6e8-64c45539b3df)
+
+
+#### Multiple cells preview
+
+
+
+![Preview with multiple cells](https://github.com/bilalazh/Goolge-Colab-GruvboxDark/assets/139261053/8c2502c6-f93f-4867-8290-04d7dfeaa1ed)
 
 
 
 
 
-
-
-
-
-## Update log : 
-
-> Monday, November 13, 2023 : Prompt example box color changed   
 
 
 #### TODOs : 
