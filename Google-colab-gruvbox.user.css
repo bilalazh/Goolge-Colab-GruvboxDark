@@ -124,31 +124,34 @@
       
 }
     html[theme=dark] {
-    --colab-anchor-color: var(
-  --paper-blue-300);
+    --colab-anchor-color: var(--paper-blue-300);
     --colab-callout-color: var(
   --google-blue-600);
-    --code-cell-background: #282828;
-    --colab-border-color: var(
-  --paper-grey-700);
+    --code-cell-background: #79740e;
+/*Border in the UI          */
+    --colab-border-color: #79740e ;
     --colab-bold-border-color: #d79921;
-    --colab-divider-color: var(
-  --paper-grey-700);
-    --colab-debugger-line-color: var(
-  --paper-red-900);
+/*Unkwn or not applied           */
+    --colab-divider-color: #cc241d;
+    --colab-debugger-line-color: var(--dim-blue);
     --colab-editor-focus-color: #282828;
-    --colab-highlighted-surface-color: #525252;
-    --colab-icon-color: var(
-  --dim-yellow);
+		/*Main cell that is active right now*/
+    --colab-highlighted-surface-color: #79740e;
+		/*Icons inside the colab */
+		--colab-icon-color: #d5c4a1;
+		
     --colab-input-placeholder-color: var(
   --colab-tertiary-text-color);
-    --colab-primary-surface-color: #17191b;
-    --colab-primary-text-color: #d5d5d5;
-    --colab-secondary-text-color: #f7f7f7;
-    --colab-tertiary-text-color: #b3b3b3;
-    --colab-secondary-surface-color: #454545;
-    --colab-scrollbar-color: rgba(255, 255, 255, 0.2);
-    --colab-gutter-icon-color: #858585;
+		
+/* Main color of the bg          */
+    --colab-primary-surface-color: #1d2021;
+    --colab-primary-text-color: #ebdbb2;
+    --colab-secondary-text-color: #d5c4a1;
+    --colab-tertiary-text-color: #8ec07c;
+    --colab-secondary-surface-color: #cc241d;
+		/*scroll bar in the ediror          */
+    --colab-scrollbar-color: #3c3836;
+    --colab-gutter-icon-color: #cc241d;
     --colab-active-execution-icon-color: var(
   --colab-icon-color);
     --colab-error-icon-color: var(
@@ -164,7 +167,7 @@
     --colab-merged-diff-background: #09380b;
     --colab-status-okay: #00c752;
     --ansi-black: rgb(127, 127, 127);
-    --ansi-red: rgb(255, 122, 136);
+    --ansi-red: #fb4934;
     --ansi-green: rgb(87, 187, 138);
     --ansi-yellow: rgb(255, 255, 102);
     --ansi-blue: #98971a;
@@ -172,11 +175,10 @@
     --ansi-cyan: #b8bb26;
     --ansi-gray: rgb(229, 229, 229);
     --ansi-bright-green: rgb(0, 255, 0);
-    --gcp-success-icon-color: #458588;
-    --colab-comment-anchor-color: var(
-  --paper-blue-300);
+    --gcp-success-icon-color: #cc241d;
+    --colab-comment-anchor-color: black;
     --colab-filled-button-ripple-color: #fff;
-    --colab-comment-highlight-color: #1a237e;
+    --colab-comment-highlight-color: #98971a;
     --error-color: var(
   --paper-deep-orange-a100);
     --primary-color: var(
@@ -189,6 +191,17 @@
     --hairline-button-disabled-label: #ffffff4d;
     --hairline-button-disabled-container: #ffffff1f;
 }
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
     
                 /*   Header styles        */
     .doc-name {
