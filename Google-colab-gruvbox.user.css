@@ -124,7 +124,10 @@
       
 }
     html[theme=dark] {
-    --colab-anchor-color: var(--paper-blue-300);
+		
+		
+	
+    --colab-anchor-color: var(--dim-red);
     --colab-callout-color: var(
   --google-blue-600);
     --code-cell-background: #79740e;
@@ -132,13 +135,13 @@
     --colab-border-color: #79740e ;
     --colab-bold-border-color: #d79921;
 /*Unkwn or not applied           */
-    --colab-divider-color: #cc241d;
+    --colab-divider-color: #98971a;
 		/*Maybe this has do do woth output */
 		/*Not tyet defiend*/
-    --colab-debugger-line-color: White ;
-    --colab-editor-focus-color: #cc241d;
+    --colab-debugger-line-color: #98971a ;
+    --colab-editor-focus-color: #98971a;
 		/*Main cell that is active right now*/
-    --colab-highlighted-surface-color: #79740e;
+    --colab-highlighted-surface-color: #98971a;
 		/*Icons inside the colab */
 		--colab-icon-color: #d5c4a1;
 		
@@ -146,7 +149,7 @@
     --colab-input-placeholder-color: #d65d0e ; 
 		
 /* Main color of the bg          */
-    --colab-primary-surface-color: #1d2021;
+    --colab-primary-surface-color: #16181a;
 		/*Here are all the text styles */
     --colab-primary-text-color: #ebdbb2;
     --colab-secondary-text-color: #d5c4a1;
@@ -158,11 +161,11 @@
     --colab-gutter-icon-color: #fb4934;
 		
 		/*Colab only the run cell button*/
-    --colab-active-execution-icon-color: #282828;
+    --colab-active-execution-icon-color: #fabd2f;
 		
 		
 		/*IG when the cell throws an error*/
-    --colab-error-icon-color: #fb4934 ;
+  /*  --colab-error-icon-color: #fb4934 ;
     --colab-title-color: #fff;
     --colab-toolbar-button-color: var(
   --paper-grey-200);
@@ -197,11 +200,47 @@
     --hairline-button-overlay-hovered: #42a5f50a;
     --hairline-button-disabled-label: #ffffff4d;
     --hairline-button-disabled-container: #ffffff1f;
-}
+		*/
 	
+		
 
 	
 	
+		/*Match code related styles*/
+		/*Dark theme links are working*/
+		.mtk5 {
+    color: #fb4934;
+}
+		/*Import and other keywords in python*/
+		.mtk18 {
+    color: #fe8019;
+}
+		
+a {
+    color:#fb4934 !important;
+	
+}
+
+		/*Date inside one of the commands*/
+.mtk6 {
+    color: #79740e;
+}
+		
+
+		
+}
+
+		
+
+	
+/*Iccon color to over write previoys one*/
+	
+	html {
+   
+    --colab-active-execution-icon-color: #fabd2f !important;
+   
+
+}
 	
 	
 	
@@ -315,7 +354,7 @@ color:#98971a !important;
     
 /* tool bar buttons       */
 colab-toolbar-button {
-    background-color:#3c3836 !important;
+    background-color:#16181a !important;
     --iron-icon-margin: 0 4px 0 0;
 }
 /* Top and side bar button colors  */
@@ -651,7 +690,6 @@ background-color: var(--colab-primary-surface-color)!important;
 
 
 } 
-    
     
     
     
