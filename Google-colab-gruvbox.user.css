@@ -136,11 +136,11 @@
 		/*Maybe this has do do woth output */
 		/*Not tyet defiend*/
     --colab-debugger-line-color: White ;
-    --colab-editor-focus-color: #282828;
+    --colab-editor-focus-color: #cc241d;
 		/*Main cell that is active right now*/
     --colab-highlighted-surface-color: #79740e;
 		/*Icons inside the colab */
-		--colab-icon-color: #3c3836;
+		--colab-icon-color: #d5c4a1;
 		
 		/*The [] brackets inside the editor*/
     --colab-input-placeholder-color: #d65d0e ; 
@@ -154,11 +154,15 @@
     --colab-secondary-surface-color: #cc241d;
 		/*scroll bar in the ediror          */
     --colab-scrollbar-color: #3c3836;
-    --colab-gutter-icon-color: #cc241d;
-    --colab-active-execution-icon-color: var(
-  --colab-icon-color);
-    --colab-error-icon-color: var(
-  --paper-red-400);
+		/*Run Icon that is therr for a fewseconds */
+    --colab-gutter-icon-color: #fb4934;
+		
+		/*Colab only the run cell button*/
+    --colab-active-execution-icon-color: #282828;
+		
+		
+		/*IG when the cell throws an error*/
+    --colab-error-icon-color: #fb4934 ;
     --colab-title-color: #fff;
     --colab-toolbar-button-color: var(
   --paper-grey-200);
@@ -614,7 +618,7 @@ background-color: var(--colab-primary-surface-color)!important;
     
 /*Brackets      */
     .monaco-editor .bracket-highlighting-0 {
-    color: #83a598;
+    color: #fabd2f;
 }
 /*  keywrds like in and other stuff     */
     .mtk6 {
@@ -624,12 +628,30 @@ background-color: var(--colab-primary-surface-color)!important;
     .mtk15 {
     color: #b16286;
 }
-    
-    
-    
-    
-    
-    
-    
-    
+ 
+	/*Function bracketing*/
+	.monaco-editor .bracket-highlighting-1 {
+    color: #d79921;
 }
+	/*The random date in the start*/
+.mtk7 {
+    color: #79740e;
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+} 
+    
+    
+    
+    
