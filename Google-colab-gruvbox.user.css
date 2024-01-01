@@ -133,21 +133,24 @@
     --colab-bold-border-color: #d79921;
 /*Unkwn or not applied           */
     --colab-divider-color: #cc241d;
-    --colab-debugger-line-color: var(--dim-blue);
+		/*Maybe this has do do woth output */
+		/*Not tyet defiend*/
+    --colab-debugger-line-color: White ;
     --colab-editor-focus-color: #282828;
 		/*Main cell that is active right now*/
     --colab-highlighted-surface-color: #79740e;
 		/*Icons inside the colab */
-		--colab-icon-color: #d5c4a1;
+		--colab-icon-color: #3c3836;
 		
-    --colab-input-placeholder-color: var(
-  --colab-tertiary-text-color);
+		/*The [] brackets inside the editor*/
+    --colab-input-placeholder-color: #d65d0e ; 
 		
 /* Main color of the bg          */
     --colab-primary-surface-color: #1d2021;
+		/*Here are all the text styles */
     --colab-primary-text-color: #ebdbb2;
     --colab-secondary-text-color: #d5c4a1;
-    --colab-tertiary-text-color: #8ec07c;
+    --colab-tertiary-text-color: #569d79;
     --colab-secondary-surface-color: #cc241d;
 		/*scroll bar in the ediror          */
     --colab-scrollbar-color: #3c3836;
