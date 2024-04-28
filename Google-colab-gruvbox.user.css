@@ -1,4 +1,7 @@
-/* ==UserStyle==
+
+
+
+	/* ==UserStyle==
 @name           Google Colab Gruvbox Dark
 @namespace      https://github.com/bilalazh/Goolge-Colab-GruvboxDark
 @version        1.0.0
@@ -123,6 +126,17 @@
         
       
 }
+	
+	
+   
+   
+   
+   
+    
+    
+    
+	
+	
     html[theme=dark] {
 		
 		
@@ -176,15 +190,7 @@
     --colab-remote-diff-background: #2e2f08;
     --colab-merged-diff-background: #09380b;
     --colab-status-okay: #00c752;
-    --ansi-black: rgb(127, 127, 127);
-    --ansi-red: #fb4934;
-    --ansi-green: rgb(87, 187, 138);
-    --ansi-yellow: rgb(255, 255, 102);
-    --ansi-blue: #98971a;
-    --ansi-magenta: rgb(205, 0, 205);
-    --ansi-cyan: #b8bb26;
-    --ansi-gray: rgb(229, 229, 229);
-    --ansi-bright-green: rgb(0, 255, 0);
+   
     --gcp-success-icon-color: #cc241d;
     --colab-comment-anchor-color: black;
     --colab-filled-button-ripple-color: #fff;
@@ -202,9 +208,7 @@
     --hairline-button-disabled-container: #ffffff1f;
 		*/
 	
-		
 
-	
 	
 		/*Match code related styles*/
 		/*Dark theme links are working*/
@@ -226,6 +230,13 @@ a {
     color: #79740e;
 }
 		
+		
+		
+		   
+
+  
+				
+ 
 
 		
 }
@@ -460,7 +471,6 @@ a {
     }
 
     
-    
 
     
     
@@ -477,16 +487,7 @@ a {
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+   
     
     
     
@@ -555,8 +556,7 @@ a {
         background-color:#16181a !important;
 }
     
-/*      */icon and related stuff 
-paper-icon-button{
+/*      */icon and related stuff paper-icon-button{
     color: var(--colab-icon-color);
     border: 1px solid transparent;
     border-radius: 3px;
@@ -688,8 +688,69 @@ background-color: var(--colab-primary-surface-color)!important;
 
 
 
-
 } 
     
     
+	
+		/*Error message under the actual code block */
     
+    body {
+    background:#1a1b1d !important ; 
+    font-family: var(--colab-chrome-font-family);
+    font-size: var(--colab-chrome-font-size);
+    line-height: 1.54;
+    font-weight: 400;
+    padding: 7px 0 10px 5px;
+    margin: 0;
+}
+    
+
+    
+
+pre > span [color]{
+	color:#d65d0e !important;
+	
+}
+
+	
+pre {
+	color:#b8bb26 !important;
+	
+}
+
+	
+/*Commit Mono in the error window*/
+.output_subarea.output_text.collapsed pre span {
+	font-family: "commitMono" !important ; 
+}
+
+
+html[theme=dark] {
+    --colab-anchor-color: #fb4934 !important ; 
+    --colab-callout-color: #fbf1c7 !important;
+    --colab-primary-text-color: #d5d5d5;
+    --colab-primary-surface-color: #383838;
+    --colab-secondary-surface-color: #454545;
+    --colab-highlighted-surface-color: #525252;
+    --colab-border-color: var(--paper-grey-700);
+    --colab-bold-border-color: #eee;
+ /*   --colab-icon-color: #8ec07c; */
+    --ansi-black: #fe8019;
+    --ansi-red: #b8bb26;
+    --ansi-green: #8ec07c;
+    --ansi-yellow: #8ec07c;
+    --ansi-blue: #83a598;
+    --ansi-magenta: #fb4934;
+    --ansi-cyan: #fe8019;
+    --ansi-gray: rgb(229,229,229);
+    --ansi-bright-green: #d3869b;
+    --gcp-success-icon-color: #81c995;
+    --colab-comment-anchor-color: var(--google-blue-600);
+    --colab-comment-highlight-color: #1a237e;
+}
+
+
+
+
+
+   
